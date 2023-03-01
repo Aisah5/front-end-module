@@ -7,7 +7,7 @@ function useCounter(val, step) {
         setCount(count + 1)
     }
 
-    function increments() {
+    function decrements() {
         if (count > 0) setCount(count - 1)
     }
 
